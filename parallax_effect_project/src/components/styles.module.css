@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    height: 8%;
+    width: 15%;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .sticky {
+    margin-left: 5%;
+    background-color: #e3d4de;
+  }
+  @media (max-width: 750px) {
+    .card {
+      width: 40%;
+    }
+  
+    .parallax {
+      margin-right: 1.5rem;
+    }
+  
+    .sticky {
+      margin-left: 1.5rem;
+    }
+  }
+    

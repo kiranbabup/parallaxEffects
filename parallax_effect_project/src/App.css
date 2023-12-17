@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.App {
+  text-align: center;
+  font-family: "Quicksand";
+}
+
+.highlight {
+  color: black;
+  text-decoration: none;
+  background: linear-gradient(120deg, #FFE600 100%, #FFE600 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 35%;
+  background-position: 0 85%;
+}
+
+.circ-img {
+  width: 100%;
+}
+
+.exp-logo {
+  height: 10vh;
+  clip-path: circle();
+}
+
+.contact-link {
+  color: black;
+  text-decoration: none;
+  margin-right: 5%;
+}
+
+.contact-link:hover {
+  background: linear-gradient(120deg, #FFE600 100%, #FFE600 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 35%;
+  background-position: 0 85%;
+}
+
+.title-text:hover {
+  background: linear-gradient(120deg, #FFE600 100%, #FFE600 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 35%;
+  background-position: 0 85%;
+}
+.text-start{
+  padding: 2%;
+  border-radius: 2%;
+}
+.vistingCard{
+  background-color: #9d8595;
+}
+.vistingCard2{
+  background-color: #87bcde;
+}
+.vistingCard3{
+  background-color: #00ff5c;
+}
